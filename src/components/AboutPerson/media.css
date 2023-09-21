@@ -1,0 +1,29 @@
+@media (max-width: 900px) {
+    .row-actor-films .col-actor-films {
+        width: 33.333%;
+    }
+}
+
+@media (max-width: 660px) {
+    .row-actor-films .col-actor-films {
+        width: 50%;
+    }
+}
+
+@media (max-width: 590px) {
+    .actor-row .col-actor-image {
+        width: 100%;
+    }
+    .box-actor-image .actor-image {
+        width: 60%;
+    }
+    .movie-info-box .movie-info-inner:nth-child(7) {
+        flex-direction: column;
+    }
+    .movie-info-box .movie-info-inner:nth-child(7) .movie-info-col {
+        width: 100%;
+    }
+    .actor-row .col-actor-bio {
+        width: 100%;
+    }
+}

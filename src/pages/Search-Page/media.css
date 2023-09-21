@@ -1,0 +1,11 @@
+@media (max-width: 800px) {
+    .actors-row .col-actors {
+        width: 33.333%;
+    }
+}
+
+@media (max-width: 500px) {
+    .actors-row .col-actors {
+        width: 50%;
+    }
+}

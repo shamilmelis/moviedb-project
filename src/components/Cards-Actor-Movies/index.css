@@ -1,0 +1,24 @@
+.inner-actor-films {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px;
+}
+
+.actor-film-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0 0;
+}
+
+.actor-movie-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}

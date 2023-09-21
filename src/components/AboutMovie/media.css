@@ -1,0 +1,57 @@
+@media (max-width: 1000px) {
+    .persons-box .col-person {
+        width: 33.333%;
+    }
+}
+
+@media (max-width: 860px) {
+    .row-about .col-poster {
+        width: 40%;
+    }
+    .row-about .col-info {
+        width: 60%;
+    }
+    .box-poster .box-poster-img {
+        width: 80%;
+    }
+    .movie-info-videos .movie-info-videos-col {
+        width: 50%;
+    }
+}
+
+@media (max-width: 780px) {
+    .persons-box .col-person {
+        width: 50%;
+    }
+}
+
+@media (max-width: 690px) {
+    .row-about .col-poster {
+        width: 100%;
+    }
+    .row-about .col-info {
+        width: 100%;
+    }
+    .persons-row .col-persons {
+        width: 100%;
+    }
+    .persons-row .col-dataBase {
+        width: 100%;
+    }
+    .persons-box .col-person {
+        width: 33.333%;
+    }
+}
+
+@media (max-width: 520px) {
+    .persons-box .col-person {
+        width: 50%;
+    }
+}
+
+@media (max-width: 380px) {
+    .persons-box .col-person {
+        width: 100%;
+    }
+}
+

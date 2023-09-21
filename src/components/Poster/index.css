@@ -1,0 +1,141 @@
+.poster-box {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.inner-poster {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 350px 20px 170px;
+}
+
+.poster-name {
+    font-weight: 500;
+    font-size: 50px;
+    color: #fff;
+}
+
+.poster-information {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+.poster-review {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.poster-review-value {
+    font-size: 20px;
+    padding: 0 3px;
+    color: #fff;
+}
+
+.review-star {
+    font-weight: 900;
+    color: #fff;
+    font-size: 14px;
+}
+
+.poster-review-value::after {
+    position: relative;
+    content: "|";
+    top: 0;
+    left: 4px;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    color: #fff;
+    padding: 0 5px;
+}
+
+.poster-review-nums {
+    font-size: 14px;
+    padding: 0 3px;
+    color: #fff;
+}
+
+.poster-data {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.poster-data-value {
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.poster-data-value:nth-child(2)::before {
+    position: relative;
+    content: "•";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #000;
+    padding: 0 5px;
+}
+
+.poster-data-value:nth-child(2)::after {
+    position: relative;
+    content: "•";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #000;
+    padding: 0 5px;
+}
+
+.poster-descr {
+    font-weight: 500;
+    font-size: 13px;
+    max-width: 450px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.poster-button {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0 0;
+    gap: 10px;
+}
+
+.video-button {
+    padding: 10px 20px;
+    background: #1338be;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.video-button span i {
+    font-size: 13px;
+    padding: 0 8px;
+}
+
+.trailer-button {
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

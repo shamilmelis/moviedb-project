@@ -1,0 +1,23 @@
+@media (max-width: 990px) {
+    .row-cards .col-cards {
+        width: 25%;
+    }
+}
+
+@media (max-width: 750px) {
+    .row-cards .col-cards {
+        width: 33.333%;
+    }
+}
+
+@media (max-width: 600px) {
+    .row-cards .col-cards {
+        width: 50%;
+    }
+}
+
+@media (max-width: 380px) {
+    .row-cards .col-cards {
+        width: 100%;
+    }
+}

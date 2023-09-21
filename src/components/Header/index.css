@@ -1,0 +1,133 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    z-index: 999;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.header-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.header-logo-small {
+    font-size: 14px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.header-logo-big {
+    font-size: 26px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+}
+
+.search-outer-box {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 99em;
+}
+
+.search-input {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    color: gray;
+    font-size: 12px;
+    font-style: italic;
+    border-top-left-radius: 99em;
+    border-bottom-left-radius: 99em;
+}
+
+.search-input::placeholder {
+    color: #000;
+}
+
+.search-button {
+    padding: 10px 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+.search-button i {
+    color: #000;
+    font-size: 16px;
+}
+
+.header-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.genre-links-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+}
+
+.genre-main-link {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.genre-links-box:hover .genre-list-box {
+    display: flex;
+}
+
+.genre-list-box {
+    position: absolute;
+    margin: 20px 0 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #fff;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.genre-list-links {
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+    padding: 5px 15px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.genre-list-links:hover {
+    background: rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}

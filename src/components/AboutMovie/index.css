@@ -1,0 +1,296 @@
+.navigate-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navigate-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px 30px;
+}
+
+.navigate-buttons {
+    background: none;
+    border: none;
+    padding: 5px;
+    margin: 2px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 99em;
+    cursor: pointer;
+}
+
+.navigate-buttons:nth-child(2):before {
+    content: "/";
+    top: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+    padding: 0 10px 0 0;
+}
+
+.navigate-span {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    padding: 0 5px;
+}
+
+.navigate-span:nth-child(2):after {
+    content: "/";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 0 0 10px;
+}
+
+.navigate-span:nth-child(2):before {
+    content: "/";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 10px 0 0;
+}
+
+.about-section {
+    padding: 150px 0 30px;
+}
+
+.container-about {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row-about {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.col-poster {
+    width: 30%;
+    padding: 10px;
+}
+
+.col-info {
+    width: 70%;
+    padding: 10px;
+}
+
+.box-poster-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.box-poster {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box-video {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 5px;
+}
+
+.box-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+    padding: 15px 0 0;
+}
+
+.box-poster-title {
+    font-weight: 700;
+    color: #fff;
+    font-size: 25px;
+}
+
+.box-poster-year {
+    font-weight: 500;
+    color: gainsboro;
+    font-size: 22px;
+    padding: 0 6px;
+}
+
+.box-poster-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+
+.movie-info {
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+}
+
+.movie-info::after {
+    position: relative;
+    content: "•";
+    top: 0;
+    left: 5px;
+    right: 0;
+    bottom: 0;
+}
+
+.box-poster-more {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px 0 0;
+}
+
+.about-movie-tile {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.movie-info-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px 0 0;
+    width: auto;
+}
+
+.movie-info-inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie-info-col {
+    width: 50%;
+    padding: 5px 0;
+}
+
+.info-title {
+    font-size: 14px;
+    color: gainsboro;
+    font-weight: 500;
+}
+
+.info-value {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.tagline-value {
+    font-size: 13px;
+    color: gainsboro;
+    font-weight: 600;
+}
+
+.descr-value {
+    font-size: 13px;
+    color: gainsboro;
+    font-weight: 600;
+}
+
+.movie-info-videos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0 0;
+}
+
+.movie-info-videos-col {
+    width: 33.333%;
+    padding: 5px;
+}
+
+.movie-info-videos-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.persons-section {
+    padding: 30px 20px;
+    background: #000;
+}
+
+.persons-box {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.persons-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 20px;
+}
+
+.persons-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.persons-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.persons-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-persons {
+    width: 70%;
+    padding: 10px;
+}
+
+.col-dataBase {
+    width: 30%;
+    padding: 10px;
+}
+
+.persons-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-person {
+    width: 25%;
+    padding: 10px;
+}
+
+.box-dataBase {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box-dataBase-inner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.dataBase-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.dataBase-info {
+    font-size: 14px;
+    font-weight: 500;
+    color: gainsboro;
+    padding: 5px 0;
+}

@@ -1,0 +1,42 @@
+.box-person {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.person-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    border-radius: 8px 10px 0 0;
+}
+
+
+.undefined-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 275px;
+    border-radius: 10px 10px 0 0;
+}
+.person-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.character-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: gray;
+    text-align: center;
+    padding: 10px 0;
+}
